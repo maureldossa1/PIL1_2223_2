@@ -1,0 +1,154 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e6e5d8;
+    background-size: cover;
+    background-position: center;
+}
+.Wrapper
+{
+    position: relative;
+    backdrop-filter: blur(20px);
+    width: 350px;
+    height: 610px;
+    background:transparent;
+    border: 2px solid orange(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 1%;
+   transition: height .2s ease;
+	padding: 45px;
+}
+.Wrapper .form-box
+{
+    width: 80%;
+    padding: 40px;
+}
+.form-box h2
+{
+    top: 0;
+    font-size: 2em;
+    color: orange;
+    text-align: center;
+}
+.input-box
+{
+    position:relative;
+    width: 90%;
+    height: 50px;
+    border-bottom: 2px solid #15183b;
+    margin: 30px 0;
+} 
+.input-box Label
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: orange;
+    font-weight: 500; 
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input
+{
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #15183b;
+    padding: 0 35px 0 5px;
+}
+.input-box input:focus~label,
+.input-box input:valid~label
+{
+    top: -5px;
+} 
+.remender-forgot
+{
+    font-size: .9em;
+    color: orange;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+} 
+.remender-forgot label input
+{
+    color:orange;
+    margin-right: 3px;
+}
+.remender-forgot a
+{
+    color: orange;
+    text-decoration: none;
+}
+.remender-forgot a:hover
+{
+ text-decoration: underline;   
+}
+.btn
+{
+    width: 100%;
+    height: 45px;
+    background-color:#162938;
+    border: none;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-register
+{
+    font-size: .9em;
+    color: orange;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register p a
+{
+    color: orange;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover
+{
+    text-decoration: underline;
+}
+
+ .div1 a
+{
+   margin: 5px;
+   text-align: center;
+   transform: rotateZ(30%);
+  
+}
+.Wrapper .form-box.login
+{
+    /*display: none;*/
+}
+.Wrapper .form-box.Etud
+{
+    position: absolute;
+    transform: translateX(400px);
+
+}
+
+.org{
+	color: orange;
+}

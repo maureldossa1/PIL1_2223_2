@@ -1,0 +1,32 @@
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="{%static 'inscript.css'%}">
+    <title>essai</title>
+</head>
+<body>
+    <header>
+	
+        <h6>Institut de Formation et de Recherche en Informatique</h6>
+
+    </header>
+    {%if user.is_authenticated%}
+		<p align="center" style="border: 1px solid  #692b38;width: auto;">Bienvenue {{user.username}} | <a style="text-decoration: none;color: #692b38;" href="{%url 'conexion:deco'%}">DECONNEXION</a> </p>
+	{%endif%}
+    <h1>INSCRIPTION</h1>
+    <div class="Wrapper " style="height: auto;width: auto;">
+        <div class="form-box login" id="login">
+            <form method="POST">
+                {%csrf_token%}
+                {{form.as_p}}
+                <input type="submit" name="" id="" value="s'inscrire">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <h1>IFRI, nous bâtissons l'excellence !</h1>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'admin.css'%}">
+	<link rel="next" href="inscripetu.html">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Wrapper " >
+        <div class="form-box login" id="login">
+            <form method="POST">
+                {{form.as_p}}
+                
+                <button type="submit" class="btn">Se Connecter</button>
+                <div class="login-register">
+                  <p>Je n'ai pas de compte ? <a href="{%url 'conexion:etudadd'%}" class="register-link">S'inscrire</a>
+                  </p>
+                </div>
+            </form>
+        </div>

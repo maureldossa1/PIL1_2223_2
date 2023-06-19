@@ -1,0 +1,131 @@
+body{
+     
+  	 padding: 0px;
+  	 margin: 0px;
+	 background-color:  #e6e5d8;
+
+}
+
+header{
+	margin:0px;
+	background: #15183b;
+	background-image: url("logoifri.png");
+	background-size: 11%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-bottom: darkblue solid 3px;
+	padding: 45px;
+
+}
+
+h6{
+	
+	text-align: center;
+	color:orange;
+	letter-spacing: 0.4rem;
+	font-style: normal;
+	font-size: 35px;
+	padding: 0.5;
+	margin: 15px;
+	font-weight: lighter;
+	
+}
+
+section{
+	
+	text-align: center;
+	margin: 0px auto;
+}
+
+
+.div1{
+	border: 1px solid;
+	text-align: center;
+	border: 1px solid 3px;
+	margin: 0px auto;
+	width: 13%;
+	height: 13%;
+	border-color: darkblue;
+	border-radius:  11%;
+	background-color: #15183b;
+
+    
+	
+}
+
+.div1 p a{
+		text-decoration: none;
+		color: beige;
+		font-size: 20px;
+		letter-spacing: 0.2rem;
+}
+
+
+.div1 p a:hover{
+	color:orange;
+}
+
+.div3{
+	border: 1px solid;
+	text-align: center;
+	border: 1px solid 3px;
+	margin: 0px auto;
+	width: 13%;
+	height: 13%;
+	border-color: darkblue;
+	border-radius: 11%;
+	background-color: #15183b;
+	
+    
+	
+}
+
+
+.div3 p a{
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+		letter-spacing: 0.2rem;
+}
+
+.div3 p a:hover{
+	color:orange;
+}
+
+.div2 P{
+	color: darkblue;
+}
+
+
+.div4{
+	border: 0px ;
+	padding: 1%;
+	margin: 0px;
+	color: orange;
+	background: #15183b;
+
+}
+
+
+.div4 p{
+	text-align: center;
+	font-size: larger;
+	text-decoration: solid;
+	letter-spacing: 0.7rem;
+}
+
+h1{
+	
+	letter-spacing: 0.2rem;
+	text-align: center;
+	color: #692b38;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+table{
+border-collapse: collapse;
+}
+th{
+	border: 1px solid black;
+}

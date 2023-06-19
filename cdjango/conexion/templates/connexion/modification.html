@@ -1,0 +1,95 @@
+{%load static%}
+<html lang="en">
+<head>
+		<title>BIENVENU</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{%static 'interface.css'%}">
+		<link rel="next" href="admin.html">
+		<link rel="next" href="etud.html">
+    <title>Document</title>
+</head>
+		
+<header>
+	
+    <h6>Institut de Formation et de Recherche en Informatique</h6>
+
+</header>
+
+<body>
+    {%if user.is_authenticated%}
+		<p align="center" style="border: 1px solid  #692b38;width: auto;">Bienvenue {{user.username}} | <a style="text-decoration: none;color: #692b38;" href="{%url 'conexion:deco'%}">DECONNEXION</a> </p>
+		{%endif%}
+    <h1>Mofication</h1>
+<table align="center">
+    <tr>
+        <th>
+            <p>emplois du temps</p>
+        </th>
+        <th>
+            <p>cours</p>
+        </th>
+        <th>
+            <p>filiaire</p>
+        </th>
+        <th>
+            <p>professeur</p>
+        </th>
+        <th>
+            <p>salles</p>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            {%for i in emp%}
+            <p>du {{i.date}} pour la filiaire {{i.filiaire}} de {{i.Annee}} <a href="{%url 'conexion:addprog' i.id%}">✍️</a><a href="{%url 'conexion:supemp' i.id%}">❌</a></p>
+            {%endfor%}
+        </th>
+        <th>
+            {% for i in cou%}
+            <p>{{i.nom}} <a href="{%url 'conexion:supcour' i.id%}">❌</a></p>
+            {%endfor%}
+        </th>
+        <th>
+            {% for i in fil%}
+            <p>{{i.nom}} <a href="{%url 'conexion:supfil' i.id%}">❌</a></p>
+            {%endfor%}
+        </th>
+        <th>
+            {% for i in prof%}
+            <p>{{i.nom}} {{i.prenom}} <a href="{%url 'conexion:supprof' i.id%}">❌</a></p>
+            {%endfor%}
+        </th>
+        <th>
+            {% for i in sal%}
+            <p>{{i.nom}} <a href="{%url 'conexion:supsal' i.id%}">❌</a></p>
+            {%endfor%}
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <a href="{%url 'conexion:addemp'%}">ajouter un emploi de temps</a>
+        </th>
+        <th>
+            <a href="{%url 'conexion:cour'%}">ajouter un cour</a>
+        </th>
+        <th>
+            <a href="{%url 'conexion:cur'%}">ajouter une filiaire</a>
+        </th>
+        <th>
+            <a href="{%url 'conexion:addprof'%}">ajouter un professeur</a>
+        </th>
+        <th>
+            <a href="{%url 'conexion:sal'%}">ajouter une salle</a>
+        </th>
+    </tr>
+</table>
+</body>
+<br><br><br><br><br><br><br><br><br><br><br>
+<footer class="div4">
+	
+	
+    <p>IFRI, nous bâtissons l'excellence !</p>
+
+
+</footer>
+</html>

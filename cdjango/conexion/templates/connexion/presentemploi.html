@@ -1,0 +1,145 @@
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'interface.css'%}">
+    <link rel="stylesheet" href="{%static 'inscript.css'%}">
+    <title>Document</title>
+</head>
+		
+<header>
+	
+    <h6>Institut de Formation et de Recherche en Informatique</h6>
+
+</header>
+
+<body>
+    {%if user.is_authenticated%}
+		<p align="center" style="border: 1px solid  #692b38;width: auto;">Bienvenue {{user.username}} | <a style="text-decoration: none;color: #692b38;" href="{%url 'conexion:deco'%}">DECONNEXION</a> </p>
+		{%endif%}
+    <br><br><br><br><br><br><br>
+    <div class="Wrapper " style="height: auto;width: auto;">
+        <div class="form-box login" id="login">
+            <table>
+                <tr>
+                    <th>  
+                        <p>lundi</p>
+                    </th>
+                    <th>  
+                        <p>mardi</p>
+                    </th>
+                    <th>  
+                        <p>mercredi</p>
+                    </th>
+                    <th>  
+                        <p>jeudi</p>
+                    </th>
+                    <th>  
+                        <p>Vendredi</p>
+                    </th>
+                    <th>  
+                        <p>Samedi</p>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Lundi" and i.hrd <= 12 %}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Mardi"  and i.hrd <= 12%}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Mercredi" and i.hrd <= 12%}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Jeudi" and i.hrd <= 12%}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Vendredi" and i.hrd <= 12 %}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Samedi" and i.hrd <= 12 %}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Lundi" and i.hrd > 12 %}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Mardi"   and i.hrd > 12%}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Mercredi"  and i.hrd > 12%}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Jeudi"  and i.hrd > 12%}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Vendredi" and i.hrd > 12 %}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                    <th>
+                        {%for i in prog%}
+                        {%if i.jour.nom == "Samedi" and i.hrd > 12 %}
+                        <p>{{i.cour}} <br>{{i.professeur}} <br> {{i.hrd}}h-{{i.hrf}}h <br> {{i.salle}}</p>
+                        {%endif%}
+                        {%endfor%}
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer class="div4">
+	
+	
+    <p>IFRI, nous bâtissons l'excellence !</p>
+
+
+</footer>
+</html>

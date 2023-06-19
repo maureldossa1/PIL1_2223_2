@@ -1,0 +1,37 @@
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="{%static 'inscript.css'%}">
+    <title>essai</title>
+</head>
+<body>
+    <header>
+	
+        <h6>Institut de Formation et de Recherche en Informatique</h6>
+
+    </header>
+    <h1>CONNEXION</h1>
+    {%for message in messages%}
+        <p>{{message}}</p>
+    {%endfor%}
+    <div class="Wrapper " style="height: auto;">
+        <div class="form-box login" id="login">
+            <form method="POST">
+                {%csrf_token%}
+                {{form.as_p}}
+                <p  aligne="center" style="margin-top: 30px; width: 70px;">
+                    <a href="{% url 'conexion:etudadd'%}" style="text-decoration: none; height: 15px; width: 200px;">s'inscrire</a>
+                    <input type="submit" name="" id="" value="connecter">
+                </p>
+                
+            </form>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <footer>
+        <h1>IFRI, nous bâtissons l'excellence !</h1>
+    </footer>
+</body>
+</html>

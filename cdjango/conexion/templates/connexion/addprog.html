@@ -1,0 +1,55 @@
+{%load static%}
+<html lang="en">
+<head>
+		<title>BIENVENU</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{%static 'interface.css'%}">
+		<link rel="next" href="admin.html">
+		<link rel="next" href="etud.html">
+    <title>Document</title>
+</head>
+		
+<header>
+	
+    <h6>Institut de Formation et de Recherche en Informatique</h6>
+
+</header>
+
+<body>
+    {%if user.is_authenticated%}
+		<p align="center" style="border: 1px solid  #692b38;width: auto;">Bienvenue {{user.username}} | <a style="text-decoration: none;color: #692b38;" href="{%url 'conexion:deco'%}">DECONNEXION</a> </p>
+		{%endif%}
+<table align="center" style="border: 1px solid #692b38;">
+    <tr>
+        <th>
+            <h1>Ajouter un programme  </h1>
+        </th>
+        <th>
+            <h1> Supprimer un programme</h1>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <form method="POST" align="center" style="width: 100%;" >
+                {%csrf_token%}
+                {{form.as_p}}
+                <input type="submit" value="enregistrer">
+            </form>
+        </th>
+        <th>
+            {%for i in pro%}
+                <p>{{i.jour}} {{i.cour}} de {{i.hrd}}h a {{i.hrf}}h <a href="{%url 'conexion:supprog' i.id%}">❌</a></p>
+            {%endfor%}
+        </th>
+    </tr>
+</table>
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer class="div4">
+	
+	
+    <p>IFRI, nous bâtissons l'excellence !</p>
+
+
+</footer>
+</html>

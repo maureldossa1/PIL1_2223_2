@@ -1,0 +1,79 @@
+{%load static%}
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		
+		
+		<title>BIENVENU</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{%static 'interface.css'%}">
+		<link rel="next" href="admin.html">
+		<link rel="next" href="etud.html">
+		
+		
+	
+	
+	
+	</head>
+	
+	
+	<body>
+	
+		
+		<header>
+	
+			<h6>Institut de Formation et de Recherche en Informatique</h6>
+	
+		</header>
+		{%if user.is_authenticated%}
+		<p align="center" style="border: 1px solid  #692b38;width: auto;">Bienvenue {{user.username}} | <a style="text-decoration: none;color: #692b38;" href="{%url 'conexion:deco'%}">DECONNEXION</a> </p>
+		{%endif%} 
+		<br>	
+		<h1>Bienvenue sur la plateforme de gestion des emplois de IFRI</h1>
+	 	<br><br><br><br><br><br><br>
+		
+	
+		
+	
+	    <br><br><br><br>
+	<table align="center">
+		<tr>
+			<th>
+				<p><h1>Les Emplois du temps disponibles</h1></p>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				{% for i in form %}
+				<p> <a href="{%url 'conexion:show' i.id %}">du {{i.date}} pour la filiaire {{i.filiaire}}  de {{i.Annee}}</a> </p>
+				{%endfor%}
+			</th>
+		</tr>
+	</table>
+	
+	<form method="POST" align="center">
+		{%csrf_token%}
+		{{valid.as_p}}
+		<input type="submit" value="apporter des modification?">
+	</form>
+	
+	
+	
+	
+	
+	
+	</body>
+	<footer class="div4">
+	
+	
+		<p>IFRI, nous bâtissons l'excellence !</p>
+
+
+</footer>
+
+
+
+</html>
