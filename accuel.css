@@ -1,0 +1,77 @@
+*
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.abo, .titre, .ifri
+{
+    display: flex;
+    display: inline-block;
+}
+.titre
+{
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abo
+{
+    margin-left:6%;
+}
+h1
+{
+    color: blue;
+    text-align: justify;
+    text-align: center;
+    justify-content: center;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.atou, .conn
+{
+    display: flex;
+    display: inline-block;
+    font-size: 1.5em;
+    color: darkgreen;
+}
+.entete, h1, .atou, .conn
+{
+    margin: 0.5%;
+}
+.bat
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: red;
+}
+.atou
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conn
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    float: right;
+}
+a
+{
+    font-style: italic;
+    color: blue;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 30%;
+}
+h5
+{
+    position: relative;
+    float: right;
+    padding-top: 7%;
+    margin-right: 0%;
+}
+footer
+{
+    background-color: bisque;
+    height: 120px;
+    padding-top: 2%;
+}
