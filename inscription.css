@@ -1,0 +1,76 @@
+h1
+{
+   text-align: center;
+   justify-content: center;
+   color: black;
+   font-size: 6em;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+form div.grand {
+    background-color: white;
+    padding: 20px;
+    border: none;
+    box-shadow: 0px 0px 20px rgb(141, 141, 141);
+}
+form div.grand div label {
+    color: rgb(25, 24, 63);
+    margin-right: 5px;
+}
+form div.grand div {
+    display: flex;
+    margin-bottom: 15px;
+}
+form div.grand div input {
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    border-bottom: 2px solid teal;
+}
+.nom, .prenom, .numero, .email, .pass
+{
+    font-size:2em;
+}
+a
+{
+    color: rgb(40, 3, 99);
+    font-size: 1.5em;
+    text-decoration: none;
+}
+p {
+    color: rgb(0, 0, 0);
+}
+.rev
+{
+    color: black
+}
+button{
+    justify-content: center;
+    text-align: justify;
+    text-align: center;
+    font-size: 1em;
+    background-color:orange;
+}
+.acc
+{
+    color: blue;
+}
+.politique
+{
+    background-color: white;
+    width: 426px;
+}
+.aa, .lu
+{
+    display: flex;
+    display: inline;
+    color: black;
+    
+}
