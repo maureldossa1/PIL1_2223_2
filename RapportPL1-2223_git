@@ -1,0 +1,140 @@
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport PIL1 22-23_G2</title>
+    <link rel="stylesheet" href="rap.CSS">
+</head>
+<body>
+    <h1>Rapport PIL1 22-23_G2</h1>
+    <p> <h4>Pour la bonne  marche  et l'evolution des  activités universitaires  tout institut  universitaire  doit s'assurer de mettre en place des emplois  du temps bien construit et favorisant les différentes interactions avec les Nouvelles technologies de l'information  et la communication .<br> Dans ce désir  d'apporter un changement  que nous membres du  Groupe2 nous nous atelons à la conception d'une application web de gestion d'emplois du temps d'une entité tel que IFRI .Dans ce rapport  nous  énumérerons les temps forts de notre tache ,l'apport de chaque  membre  ,la répartition  des taches et des différentes difficultés rencontrées et les solutions trouvées</h4>
+    </p><br>
+    <!.......Paragraphe ......!>
+    <p><h5> Composés  de douzes (12) membres répatis dans en deux équipes à savoir l'équipe Front-End etl'équipe Back-End .Chaque équipe est composée de membres  possédant  et les connaissances requises à la conception de notre application  web  à rendre dans un délai de  trois (03) semaines</h5></p>
+    <p> Notre première semaine fut inproductive pour notre travail .Cela etant dû au problème de disponibilité  et au manque d'engouement de certains  membres.Néanmoins après une première rencontre et la répartition des devoirs à chacun le travail commença .Utilisation de Git  fut mis à afin de permettre à chacun  à chacun membre de travailler efficacement et  de gagner  en productivité  et en temps  et à la fin de la deuxième semaine   nous avons atteint un taux de  travail inférieur ou égal 80 (<= 80 ) . Ce taux fut atteint surtout par l'engouement et la rapidité de  travail  de l'équipe Front-End .
+    À cela l'on peut rajouter le travail technique et minutieux de l'équipe Back-End
+    </p> 
+        
+        <li>VLAVONOU Senghor - Développeur Front-End</li>
+        <li>AGBODJAN Rodrigue - Développeur Front-End</li>
+        <li>ADISSODA Amour Julis - Développeur Front-End</li>
+        <li> Dossa Maurel- Chef de projet & Développeur Back-End </li>
+        <li>TCHONGO Michael - Développeur Back-End </li>
+        <li>ADEGOKE Ulrich- Développeur Back-End </li>
+        <li>HOUNKPONOU Dorio -Maquette</li>
+         <li>ALOWOU Odilon Fréjus- Rédaction</li>
+        <li>TOLI Aimé-Marie Freppel - Rédaction</li>
+        <li>KETOUNOU Elisée-Développeur Back-End</li>
+        <li>ZANNOU Floriane- Designer UI/UX</li>
+        <li>NOUKON Charbel - Maquette &  Designer UI/UX</li>
+        </ul>
+    <h2>Mode de fonctionnement interne du Groupe</h2>
+    <p>Pour réaliser ce projet, notre groupe a adopté une approche collaborative et agile, en utilisant la méthodologie Scrum. Chaque membre a été assigné à des rôles spécifiques en fonction de ses compétences et de ses intérêts. Voici la répartition des rôles et contributions.</p>
+    <h3> Dossa Maurel - Chef de Projet: </h3>
+    <p>Rôle:Assurer la coordination générale du projet, la communication avec les parties prenantes et la gestion des délais. </p>
+    <p>Contributions:
+    <p><strong>Rôle:</strong> Assurer la coordination générale du projet, la communication avec les parties prenantes et la gestion des délais.</p>
+    <p><strong>Contributions:</strong>
+        <ul>
+            <li>Définitions des objectifs et des exigences du projet.</li>
+            <li>Planifications de ssprints et des réunions.</li>
+            <li>Planifications de sprints et des réunions.</li>
+            <li>Suivi des progrès et résolutions des problèmes.</li>
+            <li>Validation finale du projet</li>
+        </ul>
+    </p>
+    <h3>VLAVONOU Senghor,HOUNKPONOU Dorio,ADISSODA Julis Amour - Développeurs Front-End:</h3>
+    <p>Rôle: Concevoir et développer l'interface utilisateur de l'application Web.</p>
+    <p>Contribution:
+    <p><strong>Rôle:</strong> Concevoir et développer l'interface utilisateur de l'application Web.</p>
+    <p><strong>Contribution:</strong>
+        <ul>
+    
+        <li>Création des maquettes et des prototypes</li>
+    </p>
+    <h3>TCHONGO Michael,ADEGOKE Ulrich,KETOUNOU Elisée - Développeurs Back-End: </h3>
+    <p>
+        Rôle: Mettre en place la logique métier de l'application et gérer l'intercation avec la base de données.
+       <strong>Rôle</strong> : Mettre en place la logique métier de l'application et gérer l'intercation avec la base de données.
+    </p>
+    <p>
+        Contributions:
+       <strong> Contributions:</strong>
+        <ul>
+            <li>Conception de la structure de la base de données</li>
+            <li>Développement des API et des services Back-End.</li>
+        </ul>
+    </p>
+    <h3>ALOWOU Odilon Fréjus,TOLI Aimé-Marie Freppel - Rédaction: </h3>
+    <p>Rôle:
+    <p><strong>Rôle</strong> : Rédiger le rapport de projet. 
+
+    </p>
+    <p>Contributions:
+    <p><strong>Contributions:</strong>
+        <ul>
+            <li></li>
+            <li>Rédaction du rapport qui documente l'ensemble du processus de conception de l'application Web.</li>
+            <li>Description détaillée des objectifs du projet, de l'analyse des besoins,des spécifications fonctionnelles et techniques, des contraintes, des risques identifiés, du plan de développement.</li>
+        </ul>
+    </p>
+    <h3>>ZANNOU Floriane- Designer UI/UX:</h3>
+    <p>Rôle:Créer une expérience utilisateur attrayante et conviviale pour l'application.</p>
+    <p>Contributions:
+    <h3>NOUKON Charbel,HOUNKPONOU Dorio - Designer UI/UX & Maquette:</h3>
+    <p><strong>Rôle:</strong>Créer une expérience utilisateur attrayante et conviviale pour l'application.</p>
+    <p><strong>Contributions:</strong>
+        <ul>
+            <li>Conception de l'architecture de l'information</li>
+            <li>Création de design visuel et de éléments graphiques</li>
+            <li>Création de design visuel et des éléments graphiques</li>
+            <li>Optimisation de l'ergonomie et de la navigation</li>
+            <li>Test d'utilisabilité et améliorations basées sur les retours utilisateurs</li>
+        </ul>
+    </p>
+    <h2>Description de la conception</h2>
+    <p>Notre application Web de gestion des emplois du temps pour l'établissement supérieur IFRI suit une architecture client-serveur. Voici les principales fonctionnalités de notre application:</p>
+    <h3>Gestion de enseignements et de la Masse Horaire</h3>
+    <p>L'application permet la gestion des enseignements en enregistrant les informations telles que les cours, les enseignants, les salles de cours, et les heures de cours. Elle permet également de gérer la masse horaire en attribuant des horaires spécifigues à chaque cours.</p>
+    <h3>Planification des Emplois du temps</h3>
+    <p>La fonctionnalité de planification des emplois du temps permet aux utilisateurs de générer automatiquement les emplois du temps en tenat compte des contraintes telles que les disponibilités des enseignants, les salles de classe disponibles, et les préférences des étudiants.</p>
+    <p>Notre application Web de gestion des emplois du temps pour l'établissement supérieur IFRI suit une architecture client-serveur. Voici les principales fonctionnalités de notre application:</p>
+    <h3>Gestion des enseignements et de la Masse Horaire:</h3>
+    <p>L'application permet la gestion des enseignements en enregistrant les informations telles que les cours, les enseignants, les salles de cours, et les heures de cours. Elle permet également de gérer la masse horaire en attribuant des horaires spécifiques à chaque cours.</p>
+    <h3>Planification des Emplois du temps:</h3>
+    <p>La fonctionnalité de planification des emplois du temps permet aux utilisateurs de générer automatiquement les emplois du temps en tenant compte des contraintes telles que les disponibilités des enseignants, les salles de classe disponibles, et les préférences des étudiants.</p>
+    <h3>Consulation des emplois du temps publiés:</h3>
+    <P>Les emplois du temps publiés peuvent être consultés par les étudiants, les enseignants et le personnel administratif. Les utlisateurs peuvent accéder aux informations sur le cours, les horaires,les salles de cours, et les enseignants associés.</P>
+    <h2>Instructions des Emplois du temps</h2>
+    <p>Pour utiliser l'application de gestion des emplois du temps, veuillez suivre les étapes suivantes:</p>
+    <ol>
+        <li>Connectez-vous à l'application en utilisant vos identifiants.</li>
+        <li>Naviguez vers la section de gestion des enseignements et de la masse horaire pour ajouter, modifier ou supprimer des cours,des enseignants, des salles de classe, et des horaires/</li>
+        <li>Naviguez vers la section de gestion des enseignements et de la masse horaire pour ajouter, modifier ou supprimer des cours,des enseignants, des salles de classe, et des horaires.</li>
+        <li>Utilisez la fonction de planification des emplois du temps pour générer automatiquement les emplois du temps en spécifiant les paramètres requis. </li>
+        <li>Consultez les emplois du temps publiés dans la section dédiée pour vérifier les cours, les horaires et les inforamtions assosiées.</li>
+        <li>Consultez les emplois du temps publiés dans la section dédiée pour vérifier les cours, les horaires et les informations assosiées.</li>
+    </ol>
+    <h2>Manuel d'utilisation</h2>
+    <p>Voici les instructions détaillées pour utiliser les fonctionnalités principales de l'application de gestion des emplois du temps:</p>
+        <li><strong>Gestion des Enseignements et de la Masse horaire:</strong>Dans cette section, vous pouvez effectuer les actions suivantes:
+            <ul>
+        
+            <li>Ajouter un nouveau cours en spécifiant les détails tels que le nom, la description et le nombre d'heures.</li>
+            <li>Attribuer à des enseignants aux cours en sélectionnant le cours et l'enseignant correspondant dans la liste.</li>
+            <li>Créer des nouvelles salles de classe en fournissant les informations requises comme le nom et la capacité.</li>
+            <li>Définir les horaires pour les cours en choisissant le cours, l'enseignant, la salle de cours et l'heure correspondante.</li>
+            <li>Ajoutez un nouveau cours en spécifiant les détails tels que le nom, la description et le nombre d'heures.</li>
+            <li>Attribuez à des enseignants aux cours en sélectionnant le cours et l'enseignant correspondant dans la liste.</li>
+            <li>Créez des nouvelles salles de classe en fournissant les informations requises comme le nom et la capacité.</li>
+            <li>Définiz les horaires pour les cours en choisissant le cours, l'enseignant, la salle de cours et l'heure correspondante.</li>
+            </ul>
+        </li>
+        <li><strong>Planification des Emplois du Temps:</strong>Dans cette section, vous pouvez générer automatiquement les emplois du temps en suivant les étapes ci-dessous:
+        </ul>
+        </li>    
+    </ol>
+    <p>En suivant ces instructions, vous pourrez utiliser efficacement l'application de gestion des emplois du temps pour IFRI. Si vous rencontrez des problèmes ou avez besoin d'une assistance supplémentaire, veuillez contacter notre équipe de suppor technique!</p>
+    <p>En suivant ces instructions, vous pourrez utiliser efficacement l'application de gestion des emplois du temps pour IFRI. Si vous rencontrez des problèmes ou avez besoin d'une assistance supplémentaire, veuillez contacter notre équipe de support technique!</p>
+</body>
+</html>
